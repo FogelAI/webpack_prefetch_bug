@@ -1,0 +1,16 @@
+{
+  "name": "webpack_prefetch_bug",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development npx webpack-dev-server --progress",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
